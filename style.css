@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    gap: 10px;
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+
+}
+
+.window {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    justify-content: right;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px, solid, black;
+    border-radius: 4px;
+
+}
+
+.clear {
+    display: flex;
+}
+
+.clear button {
+    width: 168px;
+    height: 32px;
+    background-color: red;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+}
+
+.numbers {
+    display: flex;
+    max-width: 120px;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+    
+}
+
+.numbers button {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.operators button {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
