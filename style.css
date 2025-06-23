@@ -33,11 +33,11 @@ body {
 
 }
 
-.clear {
+.clears {
     display: flex;
 }
 
-.clear button {
+.clears button {
     width: 168px;
     height: 32px;
     background-color: red;
