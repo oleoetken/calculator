@@ -39,8 +39,6 @@ document.querySelectorAll("button.operator").forEach(btn => {
 })
 
 document.querySelector("button.equal").addEventListener("click", () => {
-    console.log("Equal button gestartet");
-    console.log("Bekommt Werte: ", {firstNumber, operator, currentEntry});
    if (firstNumber !== null 
     && operator !== null 
     && currentEntry !== "") {
@@ -49,7 +47,6 @@ document.querySelector("button.equal").addEventListener("click", () => {
         firstNumber = result;
         operator = null;
         currentEntry = "";
-        console.log("Result: ", result);
     }
    })
 
